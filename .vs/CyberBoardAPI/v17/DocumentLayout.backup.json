@@ -1,0 +1,313 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aethi\\CyberBoardAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\entities\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:entities\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\entities\\cyberboarddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:entities\\cyberboarddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\entities\\mission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:entities\\mission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\entities\\configurations\\notificationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:entities\\configurations\\notificationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\entities\\configurations\\missionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:entities\\configurations\\missionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\entities\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:entities\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\cyberboardapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:cyberboardapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 28,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Agent.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Agent.cs",
+              "RelativeDocumentMoniker": "Entities\\Agent.cs",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Agent.cs",
+              "RelativeToolTip": "Entities\\Agent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:14:31.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Notification.cs",
+              "RelativeDocumentMoniker": "Entities\\Notification.cs",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Notification.cs",
+              "RelativeToolTip": "Entities\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:14:44.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CyberBoardDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\CyberBoardDBContext.cs",
+              "RelativeDocumentMoniker": "Entities\\CyberBoardDBContext.cs",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\CyberBoardDBContext.cs",
+              "RelativeToolTip": "Entities\\CyberBoardDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:12:15.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:39:43.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Mission.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Mission.cs",
+              "RelativeDocumentMoniker": "Entities\\Mission.cs",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Mission.cs",
+              "RelativeToolTip": "Entities\\Mission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:14:37.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotificationConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Configurations\\NotificationConfiguration.cs",
+              "RelativeDocumentMoniker": "Entities\\Configurations\\NotificationConfiguration.cs",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Configurations\\NotificationConfiguration.cs",
+              "RelativeToolTip": "Entities\\Configurations\\NotificationConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:15:24.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MissionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Configurations\\MissionConfiguration.cs",
+              "RelativeDocumentMoniker": "Entities\\Configurations\\MissionConfiguration.cs",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Configurations\\MissionConfiguration.cs",
+              "RelativeToolTip": "Entities\\Configurations\\MissionConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:15:11.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Entities\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Entities\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:15:00.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CyberBoardAPI",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\CyberBoardAPI.csproj",
+              "RelativeDocumentMoniker": "CyberBoardAPI.csproj",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\CyberBoardAPI.csproj",
+              "RelativeToolTip": "CyberBoardAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-06T14:11:35.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-06T14:03:51.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:40:17.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-06T14:08:46.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-06T12:04:47.25Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

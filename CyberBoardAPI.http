@@ -1,0 +1,6 @@
+@CyberBoardAPI_HostAddress = http://localhost:5120
+
+GET {{CyberBoardAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
