@@ -4,6 +4,7 @@ using CyberBoardAPI.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CyberBoardAPI.Migrations
 {
     [DbContext(typeof(CyberBoardDBContext))]
-    partial class CyberBoardDBContextModelSnapshot : ModelSnapshot
+    [Migration("20251107105150_EntityFramework_configured")]
+    partial class EntityFramework_configured
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -8,7 +8,9 @@
         public string HashedPassword { get; set; }
         public int Experience { get; set; }
         public string? ProfilePhotoPath { get; set; }
-        public List<Mission>? AssigendMissions { get; set; }
+        public List<Mission>? MissionsAssigned { get; set; }
         public List<Notification>? Notifications { get; set; }
+        public int AgencyId { get; set; }
+        public Agency Agency { get; set; }
     }
 }

@@ -1,10 +1,10 @@
 ﻿namespace CyberBoardAPI.Entities
 {
-    public class Mission
+    public class Agency
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Priority { get; set; }
-        public List<Agent> AgentsAssigned = [];
+        public List<Agent> Agents { get; set; }
+        public DateTime StartingDate { get; set; }
     }
 }

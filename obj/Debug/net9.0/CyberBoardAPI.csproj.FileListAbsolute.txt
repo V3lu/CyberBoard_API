@@ -163,3 +163,4 @@ C:\Users\aethi\CyberBoardAPI\obj\Debug\net9.0\refint\CyberBoardAPI.dll
 C:\Users\aethi\CyberBoardAPI\obj\Debug\net9.0\CyberBoardAPI.pdb
 C:\Users\aethi\CyberBoardAPI\obj\Debug\net9.0\CyberBoardAPI.genruntimeconfig.cache
 C:\Users\aethi\CyberBoardAPI\obj\Debug\net9.0\ref\CyberBoardAPI.dll
+C:\Users\aethi\CyberBoardAPI\obj\Debug\net9.0\CyberBoardAPI.sourcelink.json

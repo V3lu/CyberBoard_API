@@ -13,6 +13,7 @@ namespace CyberBoardAPI.Entities
         public DbSet<Agent> Agents { get; set; }
         public DbSet<Mission> Missions { get; set; }
         public DbSet<Notification> Notifications { get; set; }
+        public DbSet<Agency> Agencies { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
