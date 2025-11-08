@@ -9,6 +9,7 @@ namespace CyberBoardAPI.Entities.Configurations
         {
             builder.HasMany(c => c.AgentsAssigned)
                 .WithMany(c => c.MissionsAssigned);
+                
         }
     }
 }

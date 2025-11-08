@@ -7,7 +7,7 @@ namespace CyberBoardAPI.Entities.Configurations
     {
         public void Configure(EntityTypeBuilder<Agency> builder)
         {
-            builder.Property(c => c.StartingDate).HasDefaultValueSql("getutcdate()");
+
         }
     }
 }
