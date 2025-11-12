@@ -46,7 +46,7 @@ namespace CyberBoardAPI.Controllers
             }
             else
             {
-                return BadRequest("Agent with this name already exists");
+                return Conflict("Agent with this name already exists");
             }
 
         }

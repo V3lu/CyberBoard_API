@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CyberBoardAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc770856ed95718cf3fb36af5cdc35e6121a494c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fdc98453039da6391a6ffcb201b9918f595d64a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CyberBoardAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CyberBoardAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

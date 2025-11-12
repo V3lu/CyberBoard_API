@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "CyberBoardAPI.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agent",
+        "Type": "CyberBoardAPI.Entities.Agent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CyberBoardAPI.Entities.Agent",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CyberBoardAPI.Controllers.RegisterController",
+    "Method": "RegisterAgentFresh",
+    "RelativePath": "api/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agent",
+        "Type": "CyberBoardAPI.Entities.Agent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CyberBoardAPI.Controllers.RegisterController",
+    "Method": "RegisterAgentInAgency",
+    "RelativePath": "api/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agent",
+        "Type": "CyberBoardAPI.Entities.Agent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CyberBoardAPI.Controllers.RegisterController",
+    "Method": "RegisterAgency",
+    "RelativePath": "api/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agency",
+        "Type": "CyberBoardAPI.Entities.Agency",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
