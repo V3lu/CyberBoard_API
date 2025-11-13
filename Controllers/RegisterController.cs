@@ -26,7 +26,7 @@ namespace CyberBoardAPI.Controllers
         {
             _dbContext.Agents.Add(CreateNewCommander(agent.Name, agent.HashedPassword));
             await _dbContext.SaveChangesAsync();
-            return Ok("Agent created");
+            return Ok();
         }
 
         [HttpPost]
