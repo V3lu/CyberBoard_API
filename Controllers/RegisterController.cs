@@ -21,6 +21,7 @@ namespace CyberBoardAPI.Controllers
 
         [AllowAnonymous]
         [HttpPost]
+        [Route("RegisterAgentFresh")]
         public async Task<IActionResult> RegisterAgentFresh([FromBody] Agent agent)
         {
             _dbContext.Agents.Add(CreateNewCommander(agent.Name, agent.HashedPassword));
@@ -29,6 +30,7 @@ namespace CyberBoardAPI.Controllers
         }
 
         [HttpPost]
+        [Route("RegisterAgentInAgency")]
         public async Task<IActionResult> RegisterAgentInAgency([FromBody] Agent agent)
         {
             if (agent == null) return BadRequest();
@@ -52,6 +54,7 @@ namespace CyberBoardAPI.Controllers
         }
 
         [HttpPost]
+        [Route("RegisterAgency")]
         public async Task<IActionResult> RegisterAgency([FromBody] Agency agency)
         {
             if (agency == null || string.IsNullOrWhiteSpace(agency.Name))

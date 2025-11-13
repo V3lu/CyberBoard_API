@@ -24,11 +24,11 @@ namespace CyberBoardAPI.Migrations
 
             modelBuilder.Entity("AgentMission", b =>
                 {
-                    b.Property<int>("AgentsAssignedId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("AgentsAssignedId")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("MissionsAssignedId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("MissionsAssignedId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("AgentsAssignedId", "MissionsAssignedId");
 
@@ -39,20 +39,16 @@ namespace CyberBoardAPI.Migrations
 
             modelBuilder.Entity("CyberBoardAPI.Entities.Agency", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("StartingDate")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValueSql("getutcdate()");
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
@@ -61,14 +57,12 @@ namespace CyberBoardAPI.Migrations
 
             modelBuilder.Entity("CyberBoardAPI.Entities.Agent", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("uniqueidentifier");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("AgencyId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("AgencyId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("Experience")
                         .HasColumnType("int");
@@ -97,11 +91,9 @@ namespace CyberBoardAPI.Migrations
 
             modelBuilder.Entity("CyberBoardAPI.Entities.Mission", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -118,18 +110,16 @@ namespace CyberBoardAPI.Migrations
 
             modelBuilder.Entity("CyberBoardAPI.Entities.Notification", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Content")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TargetAgentId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("TargetAgentId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 

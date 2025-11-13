@@ -26,25 +26,9 @@
     ]
   },
   {
-    "ContainingType": "CyberBoardAPI.Controllers.RegisterController",
-    "Method": "RegisterAgentFresh",
-    "RelativePath": "api/Register",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "agent",
-        "Type": "CyberBoardAPI.Entities.Agent",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CyberBoardAPI.Controllers.RegisterController",
-    "Method": "RegisterAgentInAgency",
-    "RelativePath": "api/Register",
+    "ContainingType": "CyberBoardAPI.Controllers.MissionController",
+    "Method": "GetAllAgentMissions",
+    "RelativePath": "api/Mission/GetAllAgentMissions",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -60,7 +44,7 @@
   {
     "ContainingType": "CyberBoardAPI.Controllers.RegisterController",
     "Method": "RegisterAgency",
-    "RelativePath": "api/Register",
+    "RelativePath": "api/Register/RegisterAgency",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -68,6 +52,38 @@
       {
         "Name": "agency",
         "Type": "CyberBoardAPI.Entities.Agency",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CyberBoardAPI.Controllers.RegisterController",
+    "Method": "RegisterAgentFresh",
+    "RelativePath": "api/Register/RegisterAgentFresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agent",
+        "Type": "CyberBoardAPI.Entities.Agent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CyberBoardAPI.Controllers.RegisterController",
+    "Method": "RegisterAgentInAgency",
+    "RelativePath": "api/Register/RegisterAgentInAgency",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agent",
+        "Type": "CyberBoardAPI.Entities.Agent",
         "IsRequired": true
       }
     ],
