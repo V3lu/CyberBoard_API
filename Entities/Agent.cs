@@ -5,6 +5,7 @@
         public Guid Id { get; set; }
         public string? Rank { get; set; }
         public string? Name { get; set; }
+        public string? Email { get; set; }
         public string? HashedPassword { get; set; }
         public int? Experience { get; set; }
         public string? ProfilePhotoPath { get; set; }

@@ -43,6 +43,22 @@
   },
   {
     "ContainingType": "CyberBoardAPI.Controllers.RegisterController",
+    "Method": "CheckEmailAvailability",
+    "RelativePath": "api/Register/CheckEmailAvailability",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agent",
+        "Type": "CyberBoardAPI.Entities.Agent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CyberBoardAPI.Controllers.RegisterController",
     "Method": "RegisterAgency",
     "RelativePath": "api/Register/RegisterAgency",
     "HttpMethod": "POST",

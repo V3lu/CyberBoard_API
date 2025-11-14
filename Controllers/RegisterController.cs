@@ -19,14 +19,33 @@ namespace CyberBoardAPI.Controllers
             _dbContext = context;
         }
 
-        [AllowAnonymous]
         [HttpPost]
+        [AllowAnonymous]
         [Route("RegisterAgentFresh")]
         public async Task<IActionResult> RegisterAgentFresh([FromBody] Agent agent)
         {
             _dbContext.Agents.Add(CreateNewCommander(agent.Name, agent.HashedPassword));
             await _dbContext.SaveChangesAsync();
             return Ok();
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        [Route("CheckEmailAvailability")]
+        public async Task<IActionResult> CheckEmailAvailability([FromBody] Agent agent)
+        {
+            if (agent == null) return BadRequest();
+
+            bool exists = await _dbContext.Agents.AnyAsync(ev => ev.Email == agent.Email);
+
+            if (exists)
+            {
+                return Conflict();
+            }
+            else
+            {
+                return Ok();
+            }
         }
 
         [HttpPost]
