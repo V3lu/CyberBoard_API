@@ -2,7 +2,7 @@
   {
     "ContainingType": "CyberBoardAPI.Controllers.LoginController",
     "Method": "Login",
-    "RelativePath": "api/Login",
+    "RelativePath": "api/Login/LoginAgent",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -13,17 +13,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "CyberBoardAPI.Entities.Agent",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "CyberBoardAPI.Controllers.MissionController",

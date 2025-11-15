@@ -24,7 +24,7 @@ namespace CyberBoardAPI.Controllers
         [Route("RegisterAgentFresh")]
         public async Task<IActionResult> RegisterAgentFresh([FromBody] Agent agent)
         {
-            _dbContext.Agents.Add(CreateNewCommander(agent.Name, agent.HashedPassword));
+            _dbContext.Agents.Add(CreateNewCommander(agent.Name, agent.Email, agent.HashedPassword));
             await _dbContext.SaveChangesAsync();
             return Ok();
         }
@@ -58,7 +58,7 @@ namespace CyberBoardAPI.Controllers
 
             if(!existsInAgencyAlready)
             {
-                Agent newAgentToAdd = CreateNewAgent(agent.Name, agent.HashedPassword);
+                Agent newAgentToAdd = CreateNewAgent(agent.Name, agent.Email, agent.HashedPassword);
                 newAgentToAdd.Agency = await _dbContext.Agencies.Where(c => c.Id == agent.AgencyId).FirstOrDefaultAsync();
                 newAgentToAdd.AgencyId = agent.AgencyId;
                 _dbContext.Agents.Add(newAgentToAdd);
@@ -98,7 +98,7 @@ namespace CyberBoardAPI.Controllers
 
         }
 
-        private static Agent CreateNewAgent(string name, string password)
+        private static Agent CreateNewAgent(string name, string email, string password)
         {
             PasswordHasher<Agent> passwordHasher = new();
             Agent agent = new Agent();
@@ -106,19 +106,21 @@ namespace CyberBoardAPI.Controllers
             agent.Id = Guid.NewGuid();
             agent.Name = name;
             agent.Rank = Shared.Ranks[0];
+            agent.Email = email;
             agent.Experience = 0;
             agent.HashedPassword = passwordHasher.HashPassword(agent, password);
 
             return agent;
         }
 
-        private static Agent CreateNewCommander(string name, string password)
+        private static Agent CreateNewCommander(string name, string email, string password)
         {
             PasswordHasher<Agent> passwordHasher = new();
             Agent agent = new Agent();
 
             agent.Id = Guid.NewGuid();
             agent.Name = name;
+            agent.Email = email;
             agent.Rank = Shared.Ranks[Shared.Ranks.Count - 1];
             agent.Experience = 0;
             agent.HashedPassword = passwordHasher.HashPassword(agent, password);

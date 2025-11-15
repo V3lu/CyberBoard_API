@@ -22,17 +22,17 @@ namespace CyberBoardAPI.Controllers
 
         [AllowAnonymous]
         [HttpPost]
-        public async Task<Agent> Login([FromBody] Agent agent)
+        [Route("LoginAgent")]
+        public async Task<IActionResult> Login([FromBody] Agent agent)
         {
 
             PasswordHasher<Agent> passwordHasher = new PasswordHasher<Agent>();
-            var currentUser = await _dbContext.Agents.FirstOrDefaultAsync(x => x.Name.ToLower() ==
-            agent.Name.ToLower());
-            if (currentUser != null)
+            var currentAgent = await _dbContext.Agents.Where(ev => ev.Email == agent.Email).FirstOrDefaultAsync();
+            if (currentAgent != null)
             {
-                if (passwordHasher.VerifyHashedPassword(agent, currentUser.HashedPassword, agent.HashedPassword) == PasswordVerificationResult.Success)
+                if (passwordHasher.VerifyHashedPassword(agent, currentAgent.HashedPassword, agent.HashedPassword) == PasswordVerificationResult.Success)
                 {
-                    return currentUser;
+                    return Ok(currentAgent);
                 }
             }
             return null;
