@@ -13,10 +13,12 @@ namespace CyberBoardAPI.Controllers
     public class LoginController : ControllerBase
     {
         private readonly CyberBoardDBContext _dbContext;
+        private readonly IConfiguration _configuration;
 
-        public LoginController(CyberBoardDBContext context)
+        public LoginController(CyberBoardDBContext context, IConfiguration configuration)
         {
             this._dbContext = context;
+            this._configuration = configuration;
         }
 
 
@@ -32,7 +34,8 @@ namespace CyberBoardAPI.Controllers
             {
                 if (passwordHasher.VerifyHashedPassword(agent, currentAgent.HashedPassword, agent.HashedPassword) == PasswordVerificationResult.Success)
                 {
-                    return Ok(currentAgent);
+                    Shared shared = new Shared(_dbContext, _configuration);  //TODO Aim at doing this the more efficient way
+                    return Ok(new { token = shared.GenerateToken(currentAgent), currentAgent});
                 }
             }
             return null;

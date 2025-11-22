@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\aethi\\CyberBoardAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\entities\\mission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:entities\\mission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\entities\\cyberboarddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:entities\\cyberboarddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\controllers\\shared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:controllers\\shared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\entities\\configurations\\agencyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:entities\\configurations\\agencyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\entities\\configurations\\missionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,36 +55,12 @@
       "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\entities\\mission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:entities\\mission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\entities\\cyberboarddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:entities\\cyberboarddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\entities\\configurations\\agencyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:entities\\configurations\\agencyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\entities\\configurations\\agentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:entities\\configurations\\agentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\controllers\\shared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|solutionrelative:controllers\\shared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{700C12A7-6D40-43A4-953B-7DEBBF04D389}|CyberBoardAPI.csproj|c:\\users\\aethi\\cyberboardapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 24,
           "Children": [
             {
               "$type": "Bookmark",
@@ -158,44 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20251113105341_column_changes.cs",
-              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Migrations\\20251113105341_column_changes.cs",
-              "RelativeDocumentMoniker": "Migrations\\20251113105341_column_changes.cs",
-              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Migrations\\20251113105341_column_changes.cs",
-              "RelativeToolTip": "Migrations\\20251113105341_column_changes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T05:59:37.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegisterController.cs",
-              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\RegisterController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RegisterController.cs",
-              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\RegisterController.cs",
-              "RelativeToolTip": "Controllers\\RegisterController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T05:59:37.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MissionConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Configurations\\MissionConfiguration.cs",
-              "RelativeDocumentMoniker": "Entities\\Configurations\\MissionConfiguration.cs",
-              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Configurations\\MissionConfiguration.cs",
-              "RelativeToolTip": "Entities\\Configurations\\MissionConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T05:59:37.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "NotificationConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Configurations\\NotificationConfiguration.cs",
               "RelativeDocumentMoniker": "Entities\\Configurations\\NotificationConfiguration.cs",
@@ -207,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -219,31 +182,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Mission.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Mission.cs",
               "RelativeDocumentMoniker": "Entities\\Mission.cs",
               "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Mission.cs",
               "RelativeToolTip": "Entities\\Mission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T05:59:37.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "AgencyConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Configurations\\AgencyConfiguration.cs",
               "RelativeDocumentMoniker": "Entities\\Configurations\\AgencyConfiguration.cs",
               "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Configurations\\AgencyConfiguration.cs",
               "RelativeToolTip": "Entities\\Configurations\\AgencyConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T05:59:37.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Agent.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Agent.cs",
               "RelativeDocumentMoniker": "Entities\\Agent.cs",
@@ -255,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Agency.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Agency.cs",
               "RelativeDocumentMoniker": "Entities\\Agency.cs",
@@ -267,7 +230,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:59:37.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MissionController.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\MissionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MissionController.cs",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\MissionController.cs",
+              "RelativeToolTip": "Controllers\\MissionController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:59:37.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MissionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Configurations\\MissionConfiguration.cs",
+              "RelativeDocumentMoniker": "Entities\\Configurations\\MissionConfiguration.cs",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Configurations\\MissionConfiguration.cs",
+              "RelativeToolTip": "Entities\\Configurations\\MissionConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:59:37.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Shared.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\Shared.cs",
+              "RelativeDocumentMoniker": "Controllers\\Shared.cs",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\Shared.cs",
+              "RelativeToolTip": "Controllers\\Shared.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:59:37.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "Controllers\\RegisterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:59:37.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20251113105341_column_changes.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Migrations\\20251113105341_column_changes.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251113105341_column_changes.cs",
+              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Migrations\\20251113105341_column_changes.cs",
+              "RelativeToolTip": "Migrations\\20251113105341_column_changes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:59:37.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CyberBoardDBContext.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\CyberBoardDBContext.cs",
               "RelativeDocumentMoniker": "Entities\\CyberBoardDBContext.cs",
@@ -279,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Notification.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Notification.cs",
               "RelativeDocumentMoniker": "Entities\\Notification.cs",
@@ -291,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "AgentConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Entities\\Configurations\\AgentConfiguration.cs",
               "RelativeDocumentMoniker": "Entities\\Configurations\\AgentConfiguration.cs",
@@ -300,42 +336,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T05:59:37.164Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MissionController.cs",
-              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\MissionController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MissionController.cs",
-              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\MissionController.cs",
-              "RelativeToolTip": "Controllers\\MissionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCAAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T05:59:37.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T05:59:37.167Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Shared.cs",
-              "DocumentMoniker": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\Shared.cs",
-              "RelativeDocumentMoniker": "Controllers\\Shared.cs",
-              "ToolTip": "C:\\Users\\aethi\\CyberBoardAPI\\Controllers\\Shared.cs",
-              "RelativeToolTip": "Controllers\\Shared.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T05:59:37.169Z"
             },
             {
               "$type": "Document",
